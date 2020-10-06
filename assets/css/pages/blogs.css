@@ -104,8 +104,25 @@ li {
   font-family: 'Lato', sans-serif;
 }
 
-.write-blog-btn:focus, .card-btn:focus, .btn:focus [type="submit"]:focus {
+.write-blog-btn:focus, .card-btn:focus, .btn:focus, select:focus [type="submit"]:focus {
   outline: none;
+}
+
+select {
+  background: transparent;
+  border: none;
+  border-bottom: 2px solid #5D6B34;
+  padding: 12px 4px;
+  margin: 8px 0;
+  width: 85%;
+  font-size: 16px;
+  margin-top: 10px;
+  color:grey;
+  font-family: 'Lato', sans-serif;
+}
+
+input {
+  font-family: 'Lato', sans-serif;
 }
 
 /*
@@ -505,32 +522,102 @@ button.card-btn:hover {
 }
 
 .search-filter {
-  background-color: #5D6B34;
+  margin-top: 2vh;
   height: 10vh;
 }
 
-.date-time {
-  background-color: #FFFFFF;
+.year {
   height: 4rem;
   margin-top: 34px;
 }
 
 .title {
-  background-color: peru;
   height: 4rem;
   margin-top: 34px;
 }
 
 .category {
-  background-color: #FFFFFF;
   height: 4rem;
   margin-top: 34px;
 }
 
 .search {
-  background-color: peru;
   height: 4rem;
   margin-top: 34px;
+}
+
+.show-all-btn {
+  height: 4rem;
+  margin-top: 34px;
+}
+
+.search-bar {
+  width: 80%;
+  border-radius: 0px;
+  outline: 0;
+  border-width: 0 0 2px;
+  border-color: #5D6B34;
+  padding: 16px;
+}
+
+.search {
+  border: none;
+  background: none;
+}
+
+.search-icon {
+  width: 20px;
+  margin-top: -15vh;
+  margin-left: 550px;
+}
+
+.showAll {
+  height: 40px;
+  width: 78%;
+  background-color: #5D6B34;
+  border-color: transparent;
+  border-radius: 50px;
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  padding: 5px;
+  transition: all 0.3s ease;
+  position: absolute;
+  color: #ffffff;
+  text-transform: uppercase;
+  margin-top: 14px;
+}
+
+.showAll:hover {
+  letter-spacing: 0.13rem;
+  background: #404724;
+  transition: all 0.3s ease-in-out;
+  transform: scale(1.05);
+}
+
+.blog-posts {
+  height: 120vh;
+  margin-top: 5vh;
+}
+
+.blog-post {
+  margin-left: 2.5%;
+  margin-top: 2vh;
+}
+
+.left-section {
+  height: 20vh;
+  width: 30%;
+  background-color: #5D6B34;
+  float: left;
+}
+
+.right-section {
+  width: 70%;
+  height: 20vh;
+  background-color: #404724;
+  position: absolute;
+  margin-left: 30%;
 }
 
 /*Extra Large Screen 27 Inch and above*/
