@@ -146,7 +146,7 @@ nav {
 
 nav.sticky {
   background-color: #5D6B34;
-  transition: all 0.4s ease;
+  transition: all 0.2s ease;
   box-shadow: 3px 3px 5px 6px rgba(0, 0, 0, 0.2);
 }
 
@@ -253,6 +253,7 @@ HEADER
   background-image: url("../../img/pexels-flickr-146037.jpg");
   background-position: center;
   background-size: cover;
+  background-attachment: fixed;
   width: 110%;
   height: 100vh;
   margin-left: -5%;

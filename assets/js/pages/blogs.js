@@ -1,5 +1,6 @@
 //Javascript Code
 
+//Navigation Bar
 window.addEventListener("scroll", function() {
     var navbar = document.querySelector("nav");
     navbar.classList.toggle("sticky", window.scrollY > 0);
@@ -29,5 +30,13 @@ const navSlide = () => {
 }
 
 navSlide();
+
+//Parallax Header Image Effect
+const parallax = document.getElementById("parallax");
+
+window.addEventListener("scroll", function() {
+    let offset = window.pageYOffset;
+    parallax.style.backgroundPositionY = offset * 0.1 + "px";
+});
 
 
